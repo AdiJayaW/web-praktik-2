@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEMBUATAN FORM GASS</title>
+</head>
+<body>
+    <center>
+    <h2>FORM MENJADI SUKI</h2>
+    <form action="">
+        <table cellpadding="10" align="center">
+            <tr>
+                <td>
+                    Username
+                </td>
+                <td>
+                    <input type="text" name="txtuser" placeholder="username" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Password
+                </td>
+                <td>
+                    <input type="password" name="pass" id="" placeholder="password" pattern="[A-Za-z]{8,12}" title="5 letter password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Jenis Kelamin
+                </td>
+                <td>
+                    <input type="radio" name="jkP" id="">Laki Laki
+                    <input type="radio" name="jkP" id="">Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Alamat
+                </td>
+                <td>
+                    <textarea name="txtalamat" rows="4" cols="21" id=""></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Jurusan
+                </td>
+                <td>
+                    <select name="jurusan" id="">
+                        <optgroup label="FTD">
+                                <option value="SK">Sistem Komputer</option>
+                                <option value="TI">Teknik Informatika</option>
+                                <option value="DKV">Desain Komunikasi Visual</option>
+                        </optgroup>
+                        <optgroup label="FEB">
+                                <option value="MAN">Manajemen</option>
+                                <option value="AK">Akuntansi</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Usia
+                </td>
+                <td>
+                    <input type="number" name="usia" id="" min="20">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Tanggal Lahir + Jam
+                </td>
+                <td>
+                    <input type="datetime-local" name="t-lahir" id="">
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    <button >
+                        Kirim
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </center>
+</body>
+</html>
