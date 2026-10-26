@@ -1,0 +1,16 @@
+*{
+    margin:auto;
+    font-family:'Poppins' ;
+    background-image: url(images/reza-auditore-1144x644.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+.hero h1 {
+    font: 40pt Arial
+}
+.hero p{
+    line-height:10 pt; text-align:justify; text-indent:15pt;
+    text-decoration:line-through; text-transform:capitalize; word-spacing: 20pt;
+}
